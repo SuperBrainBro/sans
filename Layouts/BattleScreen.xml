@@ -544,9 +544,9 @@
                     <effect-instances>
                         <effect-instance type="Tint">
                             <parameters>
-                                <blue>2.56</blue>
-                                <green>2.56</green>
-                                <red>2.56</red>
+                                <blue>0</blue>
+                                <green>0</green>
+                                <red>1</red>
                             </parameters>
                         </effect-instance>
                     </effect-instances>
@@ -561,40 +561,7 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="CombatZone" uid="7">
-                    <properties>
-                        <left-margin>5</left-margin>
-                        <right-margin>5</right-margin>
-                        <top-margin>5</top-margin>
-                        <bottom-margin>5</bottom-margin>
-                        <edges>Stretch</edges>
-                        <fill>Transparent</fill>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                        <seams>Overlap</seams>
-                    </properties>
-                    <instance-variables>
-                        <TargetLeft>33</TargetLeft>
-                        <TargetTop>251</TargetTop>
-                        <TargetRight>608</TargetRight>
-                        <TargetBottom>391</TargetBottom>
-                        <InfoText></InfoText>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>32</x>
-                        <y>240</y>
-                        <z>0</z>
-                        <width>576</width>
-                        <height>144</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
+                        <angle>1.570796371</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -634,7 +601,41 @@
             <use-render-cells>0</use-render-cells>
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
-            <instances />
+            <instances>
+                <instance type="CombatZone" uid="7">
+                    <properties>
+                        <left-margin>5</left-margin>
+                        <right-margin>5</right-margin>
+                        <top-margin>5</top-margin>
+                        <bottom-margin>5</bottom-margin>
+                        <edges>Stretch</edges>
+                        <fill>Transparent</fill>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                        <seams>Overlap</seams>
+                    </properties>
+                    <instance-variables>
+                        <TargetLeft>33</TargetLeft>
+                        <TargetTop>251</TargetTop>
+                        <TargetRight>608</TargetRight>
+                        <TargetBottom>391</TargetBottom>
+                        <InfoText></InfoText>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>32</x>
+                        <y>240</y>
+                        <z>0</z>
+                        <width>576</width>
+                        <height>144</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
             <effects />
         </layer>
         <layer name="Touch" sid="632984773778133">
